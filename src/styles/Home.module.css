@@ -1,0 +1,62 @@
+.container {
+  min-height: 100vh;
+  padding: 40px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to bottom right, #1a202c, #000000);
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  width: 100%;
+  max-width: 600px;
+  padding: 24px;
+  background: rgba(255 255 255 / 0.05);
+  border-radius: 16px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(12px);
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 2rem;
+  margin-bottom: 24px;
+}
+
+.buttonContainer {
+  margin-top: 16px;
+}
+
+.button {
+  background-color: #319795;
+  border: none;
+  color: white;
+  padding: 12px 24px;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #2c7a7b;
+}
+
+.loading {
+  margin-top: 16px;
+  color: #4fd1c5;
+  font-weight: 600;
+}
+
+.error {
+  margin-top: 16px;
+  color: #f56565;
+  font-weight: 600;
+}
+
+.resultsContainer {
+  margin-top: 24px;
+  text-align: left;
+}
